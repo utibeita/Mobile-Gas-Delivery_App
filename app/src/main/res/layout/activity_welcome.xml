@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.login.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/display_image"
+        android:layout_width="1500dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/gasstation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas Stations Close \n to You"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can easily find different \n gas stations in your locality."
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:text="Next"
+        app:elevation="200dp"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:id="@+id/next_button"
+        app:cornerRadius="5dp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
